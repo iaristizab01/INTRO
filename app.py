@@ -6,7 +6,7 @@ st.title("🎀 Mi primera app de Hello Kitty 🎀")
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales versión Hello Kitty 💕")
 
 image = Image.open('hellokitty.webp')
-st.image(image, caption='Hello Kitty hermosa)
+st.image(image, caption='Hello Kitty hermosa')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 st.write('El texto escrito es:', texto)
