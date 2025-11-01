@@ -3,11 +3,10 @@ from PIL import Image
 
 st.title("🎀 Mi primera app de Hello Kitty 🎀")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales (versión Hello Kitty 💕).")
-st.write("Fácilmente puedo realizar backend y frontend con estilo kawaii 😸.")
+st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales versión Hello Kitty 💕")
 
-image = Image.open('Screenshot 2025-11-01 at 1.59.33 PM.png')
-st.image(image, caption='Hello Kitty te acompaña 🎀')
+image = Image.open('hellokitty.webp')
+st.image(image, caption='Hello Kitty hermosa)
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 st.write('El texto escrito es:', texto)
